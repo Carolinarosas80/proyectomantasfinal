@@ -1,0 +1,221 @@
+h1, h2, h3, p {
+  text-align: center;
+}
+
+header {
+  background-color: #3b3b3b;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+header p {
+  font-size: 1.2em;
+}
+header nav {
+  margin-top: 10px;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: #6e6e6e;
+}
+
+#nuestras-secciones .categories {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#nuestras-secciones .categories .category-card {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+#nuestras-secciones .categories .category-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f4f4f4;
+}
+#nuestras-secciones .categories .category-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+#nuestras-secciones .categories .category-card button {
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+}
+#nuestras-secciones .categories .category-card button:hover {
+  background-color: #7a1db1;
+}
+
+header {
+  background-color: #3b3b3b;
+  padding: 16px;
+}
+header .logo {
+  color: #f5f5f5;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+header nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #bada55;
+}
+
+#inicio p {
+  text-align: center;
+  background-color: rgb(159, 152, 152);
+}
+
+.footer {
+  background-color: #3b3b3b;
+  color: #f5f5f5;
+  padding: 32px;
+  text-align: center;
+}
+.footer .about {
+  font-size: 19.2px;
+  margin-bottom: 16px;
+}
+.footer .contact a {
+  color: #bada55;
+  text-decoration: none;
+}
+.footer .contact a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 32px;
+}
+.section h2 {
+  color: #3b3b3b;
+  font-size: 32px;
+  text-align: center;
+  background-color: grey;
+}
+.section .product-card {
+  background-color: #f5f5f5;
+  color: #3b3b3b;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.section .product-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.section img {
+  width: 100%;
+  border-radius: 4px;
+}
+.section button {
+  background-color: #bada55;
+  color: #f5f5f5;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+.section button:hover {
+  background-color: rgb(168, 206.9565217391, 45.0434782609);
+}
+
+header {
+  background-color: #3b3b3b;
+  padding: 16px;
+}
+header .logo {
+  color: #f5f5f5;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+header nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #bada55;
+}
+
+#inicio p {
+  text-align: center;
+  background-color: rgb(159, 152, 152);
+}
+
+#nuestras-secciones .categories {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#nuestras-secciones .categories .category-card {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+#nuestras-secciones .categories .category-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f4f4f4;
+}
+#nuestras-secciones .categories .category-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+#nuestras-secciones .categories .category-card button {
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+}
+#nuestras-secciones .categories .category-card button:hover {
+  background-color: #7a1db1;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: $spacing-unit * 4;
+    text-align: center;
+  
+    .about {
+      font-size: $font-size-base * 1.2;
+      margin-bottom: $spacing-unit * 2;
+    }
+  
+    .contact {
+      a {
+        color: $highlight-color;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }

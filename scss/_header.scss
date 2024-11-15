@@ -1,0 +1,36 @@
+header {
+    background-color: $primary-color;
+    padding: $spacing-unit * 2;
+  
+    .logo {
+      color: $secondary-color;
+      font-family: $font-family-main;
+      font-size: $font-size-base * 1.5;
+    }
+  
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        gap: $spacing-unit * 2;
+        
+        li {
+          a {
+            color: $secondary-color;
+            text-decoration: none;
+  
+            &:hover {
+              color: $highlight-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  //seccion inicio
+#inicio{
+    p{
+        text-align: center;
+        background-color: rgb(159, 152, 152);
+    }
+}

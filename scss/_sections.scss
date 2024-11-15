@@ -1,0 +1,53 @@
+// sections.scss
+@mixin card-style($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    padding: $spacing-unit * 2;
+    border-radius: $spacing-unit;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.section {
+    padding: $spacing-unit * 4;
+
+    h2 {
+        color: $primary-color;
+        font-size: $font-size-base * 2;
+        text-align: center;
+        background-color: grey;
+    }
+
+    .product-card {
+        @include card-style($secondary-color, $primary-color);
+        margin-bottom: $spacing-unit * 2;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+   
+}
+
+        img {
+            width: 100%;
+            border-radius: $spacing-unit / 2;
+        }
+
+        button {
+            background-color: $highlight-color;
+            color: $secondary-color;
+            padding: $spacing-unit;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($highlight-color, 10%);
+            }
+        }
+    }
+
